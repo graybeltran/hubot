@@ -4,18 +4,18 @@ javascriptbot is a chat bot built on the hubot framework. It really likes Mexica
 
 ### Things javascriptbot does
 
-1)
+1) javascriptbot will respond to certain food related messages. If a user says "I like Mexican food", javascriptbot will reply in agreement, saying "I like Mexican food". For all other things that a user says he or she likes, javascriptbot will reply, "I don't like [that]".
 
-javascriptbot will respond to certain food related messages. If a user says "I like Mexican food", javascriptbot will reply in agreement, saying "I like Mexican food". For all other things that a user says he or she likes, javascriptbot will reply, "I don't like [that]".
+2) If javascriptbot hears any mention of certain kinds of Mexican food, it will respond that it likes Mexican food. 
 
-2)
+3) If a user asks javascriptbot what its favorite food is, it will respond with a specific kind of Mexican food, chosen at random (Don't make javascriptbot choose!).
 
-If javascriptbot hears any mention of certain kinds of Mexican food, it will respond that it likes Mexican food. 
+4) If a user asks javascriptbot to "Make me a taco", javascriptbot will provide a taco emoji. 
 
-3)
+### To install
 
-If a user asks javascriptbot what its favorite food is, it will respond with a specific kind of Mexican food, chosen at random (Don't make javascriptbot choose!).
+Download javascript bot here: https://github.com/graybeltran/hubot.git
 
-4) 
+Run npm install hubot-slack --save
 
-If a user asks javascriptbot to "Make me a taco", javascriptbot will provide a taco emoji. 
+Run [hubot slack token] ./bin/hubot --adapter slack
