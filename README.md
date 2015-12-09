@@ -16,6 +16,6 @@ javascriptbot is a chat bot built on the hubot framework. It really likes Mexica
 
 Download javascript bot here: https://github.com/graybeltran/hubot.git
 
-Run npm install hubot-slack --save
+Run `npm install hubot-slack --save`
 
-Run [hubot slack token] ./bin/hubot --adapter slack
+Run `[hubot slack token] ./bin/hubot --adapter slack`
